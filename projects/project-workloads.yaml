@@ -17,7 +17,7 @@ spec:
   - name: custom-project-role
     description: The "custom-project-role" will be applied to "christian"
     groups:
-    - christian
+    - mkoch
     policies:
     - p, proj:workloads:custom-project-role, projects, get, workloads, allow
     - p, proj:workloads:custom-project-role, applications, *, workloads/*, allow
